@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 set(PRJ_ROOT_NAME qhttp)
-project(${PRJ_ROOT_NAME} LANGUAGES CXX)
+project(${PRJ_ROOT_NAME} LANGUAGES C CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
