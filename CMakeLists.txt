@@ -42,7 +42,7 @@ else()
   set(Build_Type STATIC)
 endif()
 
-option(QHTTP_HAS_CLIENT "Build clients?" OFF)
+option(QHTTP_HAS_CLIENT "Build clients?" ON)
 if(${QHTTP_HAS_CLIENT})
   set(hdrs ${hdrs}
     ${src_dir}/qhttpclient.hpp
